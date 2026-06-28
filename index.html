@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Підтримка Департаменту активних операцій ГУР України" />
+  <title>Підтримай Kraken · Support Kraken Ukraine</title>
+  <link rel="icon" type="image/png" href="icons/kraken.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <img src="icons/flag.svg" alt="" aria-hidden="true" />
+      <span data-i18n="nav.brand"></span>
+    </div>
+    <nav aria-label="languages">
+      <div class="lang-switcher">
+        <button type="button" lang="uk" id="btn-uk" onclick="setLang('uk')">УКР</button>
+        <button type="button" lang="en" id="btn-en" onclick="setLang('en')">ENG</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1 data-i18n="hero.title"></h1>
+        <img src="icons/kraken-sup.png" alt="Kraken" class="hero-img" />
+        <p data-i18n="hero.desc"></p>
+      </div>
+    </section>
+    <section class="container">
+      <div>
+        <span class="section-eyebrow" data-i18n="campaign.eyebrow"></span>
+        <div class="campaign-card">
+          <div class="campaign-status">
+            <span class="status-dot"></span>
+            <span data-i18n="campaign.status"></span>
+          </div>
+          <img id="campaign-image" src="icons/kraken-sup.png" alt="Kraken" class="campaign-image" />
+          <h2 class="campaign-title" id="campaign-title"></h2>
+          <p class="campaign-desc" id="campaign-desc"></p>
+          <div class="campaign-meta">
+            <div class="meta-row">
+              <dt>📅</dt>
+              <dd><strong data-i18n="campaign.opened"></strong> <span id="campaign-opened"></span></dd>
+            </div>
+            <div class="meta-row">
+              <dt>🎯</dt>
+              <dd><strong data-i18n="campaign.goal"></strong> <span id="campaign-goal"></span></dd>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div>
+        <span class="section-eyebrow" data-i18n="banks.eyebrow"></span>
+        <div class="warning">
+          <span style="font-size:18px;flex-shrink:0">⚠️</span>
+          <span data-i18n="system.warning"></span>
+        </div>
+        <div id="local-payment" class="pay-grid"></div>
+      </div>
+    </section>
+    <section class="container">
+      <div>
+        <span class="section-eyebrow" data-i18n="contacts.eyebrow"></span>
+      </div>
+      <div class="pay-grid">
+<!--        <a href="https://t.me/evariantyUA" target="_blank" rel="noopener noreferrer" class="contact-item">-->
+<!--          <img src="icons/telegram.png" alt="Telegram" class="pay-logo" />-->
+<!--          <span>@evariantyUA</span>-->
+<!--        </a>-->
+<!--        <a href="https://instagram.com/eva.iter" target="_blank" rel="noopener noreferrer" class="contact-item">-->
+<!--          <img src="icons/instagram.svg" alt="Instagram" class="pay-logo" />-->
+<!--          <span>Ева Итэр</span>-->
+<!--        </a>-->
+        <a href="https://x.com/kyroakokiller2" target="_blank" rel="noopener noreferrer" class="contact-item">
+          <img src="icons/twitter.webp" alt="Twitter" class="pay-logo" />
+          <span>КыроакоВинищувачReborn</span>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <img src="icons/flag.svg" alt="Ukraine" aria-hidden="true" />
+    <p class="" data-i18n="footer.slogan"></p>
+    <span class="copyright">© Copyright 2026 ChS</span>
+  </footer>
+  <script src="data.js"></script>
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

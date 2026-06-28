@@ -1,0 +1,34 @@
+const i18n = {
+  uk: {
+    'nav.brand':             'Kraken · Support',
+    'hero.title':            'Підтримай<br><em>захисників</em>',
+    'hero.desc':             'Кожен внесок іде безпосередньо до піддрозділу Департаменту активних дій ГУР МО KRAKEN — на спорядження, техніку та забезпечення бійців на передовій.',
+    'campaign.eyebrow':      'Активний збір',
+    'campaign.status':       'Відкритий збір',
+    'campaign.opened':       'Відкрито:',
+    'campaign.goal':         'Мета:',
+    'banks.eyebrow':         'Банківські перекази',
+    'contacts.eyebrow':      'Контакти',
+    'footer.slogan':         'Слава Україні! · Glory to Ukraine!',
+    'system.copy':           'Копіювати',
+    'system.copied':         'Скопійовано',
+    'system.donate':         'Задонатити',
+    'system.warning':        'Для PayPal, Wise, Revolut — <strong>не вказуй військову мету</strong> в коментарях. Пиши: «Help for Ukraine», «For a friend», «Gift».'
+  },
+  en: {
+    'nav.brand':             'Kraken · Support',
+    'hero.title':            'Support<br><em>the defenders</em>',
+    'hero.desc':             'Every contribution goes directly to the KRAKEN Active Operations Department of Ukraine\'s Defence Intelligence — for equipment, hardware, and support of fighters on the front line.',
+    'campaign.eyebrow':      'Active campaign',
+    'campaign.status':       'Open campaign',
+    'campaign.opened':       'Opened:',
+    'campaign.goal':         'Goal:',
+    'banks.eyebrow':         'Bank transfers',
+    'contacts.eyebrow':      'Contacts',
+    'footer.slogan':         'Слава Україні! · Glory to Ukraine!',
+    'system.copy':           'Copy',
+    'system.copied':         'Copied',
+    'system.donate':         'Donate',
+    'system.warning':        'For PayPal, Wise, Revolut — <strong>do not mention military purposes</strong> in comments. Write: «Help for Ukraine», «For a friend», «Gift».'
+  }
+}
