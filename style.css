@@ -128,7 +128,6 @@ h1 em { color: var(--yellow); font-style: normal; }
 }
 
 .hero-img {
-    width: 80%;
     max-width: 250px;
     height: auto;
     display: block;
@@ -241,7 +240,7 @@ h1 em { color: var(--yellow); font-style: normal; }
 .campaign-image {
     display: block;
     margin: 0 auto;
-    max-width: min(340px, 100%);
+    max-width: min(320px, 100%);
     height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.2);
