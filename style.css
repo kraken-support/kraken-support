@@ -240,7 +240,7 @@ h1 em { color: var(--yellow); font-style: normal; }
 .campaign-image {
     display: block;
     margin: 0 auto;
-    max-width: min(320px, 100%);
+    max-width: min(280px, 100%);
     height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.2);
@@ -252,6 +252,7 @@ h1 em { color: var(--yellow); font-style: normal; }
     font-weight: 700;
     color: #fff;
     line-height: 1.2;
+    text-align: center;
 }
 
 .campaign-desc {
