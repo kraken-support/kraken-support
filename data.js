@@ -8,7 +8,7 @@ const CAMPAIGN = {
     uk: 'Збираємо кошти на планшети для підтримки якісного звʼязку і підтримки бойових програм та на ремонт авто.',
     en: 'Raising funds for tablets to support quality communication and combat software, and for vehicle repair.'
   },
-  goal: '580 000',
+  goal: '170 000',
   date: '06.2026',
 }
 
