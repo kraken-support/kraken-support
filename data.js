@@ -14,12 +14,12 @@ const CAMPAIGN = {
 
 const Data = [
   {
-    enable: false,
+    enable: true,
     name: 'Монобанк',
     logo: 'icons/monobank.webp',
     fields: [
-      { label: { uk: 'Банка', en: 'Jar' }, value: 'send.monobank.ua/jar/7iRdML6ah8', type: 'link' },
-      { label: { uk: 'Картка', en: 'Card' }, value: '5375 4112 0571 5407', type: 'copy' },
+      { label: { uk: 'Банка', en: 'Jar' }, value: 'send.monobank.ua/jar/3RWvP9gina', type: 'link' },
+      { label: { uk: 'Картка', en: 'Card' }, value: '4874 1000 3040 8697', type: 'copy' },
     ]
   },
   {
