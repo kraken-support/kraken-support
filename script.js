@@ -72,6 +72,7 @@ function renderCampaign() {
     if (!card) return;
 
     document.getElementById('campaign-image').src = CAMPAIGN.image;
+    card.style.setProperty('--campaign-bg', `url('${CAMPAIGN.image}')`);
     document.getElementById('campaign-title').textContent = CAMPAIGN.title[lang];
     document.getElementById('campaign-desc').textContent = CAMPAIGN.description[lang];
     document.getElementById('campaign-opened').textContent = CAMPAIGN.date;
