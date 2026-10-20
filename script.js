@@ -12,8 +12,8 @@ function setLang(lang) {
     document.getElementById('btn-en').classList.toggle('active', lang === 'en');
     localStorage.setItem('lang', lang);
     applyLang(lang);
-    renderCampaign();
     renderBanks();
+    renderCampaign();
 }
 
 document.addEventListener('DOMContentLoaded', function () {
