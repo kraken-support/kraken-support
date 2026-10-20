@@ -5,11 +5,11 @@ const CAMPAIGN = {
     en: 'Urgent fundraiser for the KRAKEN DIU drone company!'
   },
   description: {
-    uk: 'Збираємо кошти на планшети для підтримки якісного звʼязку і підтримки бойових програм та на ремонт авто.',
-    en: 'Raising funds for tablets to support quality communication and combat software, and for vehicle repair.'
+    uk: 'Збираємо кошти на загальні потреби та для підтримки боєздатності підрозділу.',
+    en: 'We are raising funds for general needs and to support the unit\'s combat readiness.'
   },
-  goal: '170 000',
-  date: '06.2026',
+  goal: '97 000',
+  date: '10.2026',
 }
 
 const Data = [
